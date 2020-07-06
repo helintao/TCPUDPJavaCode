@@ -1,4 +1,4 @@
-package service;
+package communication.service;
 
 import java.io.IOException;
 import java.io.InputStream;

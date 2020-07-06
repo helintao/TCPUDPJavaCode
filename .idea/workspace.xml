@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8124d0cb-4eb3-4a13-81e3-ce33047d3f89" name="Default" comment="" />
+    <list default="true" id="8124d0cb-4eb3-4a13-81e3-ce33047d3f89" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/client/FileClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/file/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/communication/client/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/UDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/communication/client/UDPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/communication/service/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UDPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/communication/service/UDPServer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,9 +22,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="UDPClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/UDPClient.java">
+        <entry file="file://$PROJECT_DIR$/src/communication/client/UDPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
+            <state relative-caret-position="75">
               <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -24,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UDPServer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/service/UDPServer.java">
+      <file leaf-file-name="FileService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/file/service/FileService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+            <state relative-caret-position="146">
+              <caret line="69" column="47" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +45,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UDPServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/communication/service/UDPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/file/client/FileClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataOutputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/src.zip!/java/io/DataOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TCPClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/TCPClient.java">
+        <entry file="file://$PROJECT_DIR$/src/communication/client/TCPClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="16" column="56" selection-end-line="32" />
+              <caret line="15" column="56" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +93,7 @@
         </entry>
       </file>
       <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/TCPServer.java">
+        <entry file="file://$PROJECT_DIR$/src/communication/service/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
               <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
@@ -79,6 +123,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -87,6 +134,11 @@
         <option value="$PROJECT_DIR$/src/service/TCPService.java" />
         <option value="$PROJECT_DIR$/src/client/TCPClient.java" />
         <option value="$PROJECT_DIR$/src/service/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/communication/service/UDPServer.java" />
+        <option value="$PROJECT_DIR$/src/file/client/FlieClient.java" />
+        <option value="$PROJECT_DIR$/src/file/service/FlieService.java" />
+        <option value="$PROJECT_DIR$/src/file/client/FileClient.java" />
+        <option value="$PROJECT_DIR$/src/file/service/FileService.java" />
       </list>
     </option>
   </component>
@@ -124,6 +176,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,6 +195,46 @@
               <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCPAndUDPDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -162,6 +257,14 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCPAndUDPDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -204,45 +307,45 @@
   </component>
   <component name="RunManager" selected="Application.TCPClient">
     <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.TCPClient" />
+      <option name="MAIN_CLASS_NAME" value="communication.client.TCPClient" />
       <module name="TCPAndUDPDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="communication.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.TCPServer" />
+      <option name="MAIN_CLASS_NAME" value="communication.service.TCPServer" />
       <module name="TCPAndUDPDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="communication.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="UDPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.UDPClient" />
+      <option name="MAIN_CLASS_NAME" value="communication.client.UDPClient" />
       <module name="TCPAndUDPDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="communication.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="UDPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.UDPServer" />
+      <option name="MAIN_CLASS_NAME" value="communication.service.UDPServer" />
       <module name="TCPAndUDPDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="communication.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +418,12 @@
       <updated>1593782349552</updated>
       <workItem from="1593782365259" duration="6960000" />
       <workItem from="1593827904960" duration="5786000" />
-      <workItem from="1594042092209" duration="1072000" />
+      <workItem from="1594042092209" duration="3725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13818000" />
+    <option name="totallyTimeSpent" value="16471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -334,9 +437,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33009708" />
       <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -364,7 +467,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/UDPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/client/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
@@ -374,7 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/TCPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/client/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="56" selection-end-line="32" />
@@ -384,7 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/TCPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/service/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
@@ -401,7 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UDPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/service/UDPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
@@ -411,7 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/UDPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/client/UDPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
@@ -421,7 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/TCPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/client/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="56" selection-end-line="32" />
@@ -431,7 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/TCPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/service/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
@@ -448,7 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UDPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/service/UDPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
@@ -464,27 +567,17 @@
     <entry file="file://$PROJECT_DIR$/src/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/UDPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/TCPClient.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/client/TCPClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="16" column="56" selection-end-line="32" />
+          <caret line="15" column="56" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/TCPServer.java">
+    <entry file="file://$PROJECT_DIR$/src/communication/service/TCPServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
@@ -501,10 +594,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/UDPServer.java">
+    <entry file="jar://D:/Java/src.zip!/java/io/DataOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="43" column="65" lean-forward="true" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
+        <state relative-caret-position="48">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/communication/service/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/communication/client/UDPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/client/FileClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="69" column="47" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
